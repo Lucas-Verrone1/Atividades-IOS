@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.images-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.card {
+    font-family: Bitcount Grid Single;
+    font-weight: normal;
+    border: 2px solid #e48f4f;
+    border-radius: 10px;
+    width: 450px;
+    padding: 25px;
+    margin: 20px;
+    justify-content: center;
+    box-shadow: 0 2px 4px 4px #e48f4f;
+}
+
+.card-list{
+    padding: 10px;
+    margin: 8px;
+    font-size: 15px;
+}

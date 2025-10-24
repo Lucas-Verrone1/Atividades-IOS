@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+@media (max-width: 600px){
+    #body{
+        width: 45%;
+    }
+    
+    .container-3 {
+        flex-direction: column;
+        width: 90%;
+        font-size: 14px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    font-family: Roboto;
+    font-size: 16px;
+    background-color: #0d1117;
+    color: #ffffff;
+}
+
+.header{
+    font-family: Montserrat;
+    padding: 10px;
+    margin: 10px;  
+}
+
+.first-title {
+    margin: 10px;
+    font-weight: normal;
+    color: #e48f4f;
+}
+
+.sub-title {
+    margin: 10px;
+    font-weight: normal;
+    color: #e48f4f;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Bitcount Grid Single;
+}
+
+.menu {
+    margin: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px; 
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 15px;    
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 15px;
+}
+
+.box {
+    margin: 10px;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #e48f4f;
+    width: 15%; 
+    text-align: center;
+    box-shadow: 0 4px 6px #e48f4f;
+}
